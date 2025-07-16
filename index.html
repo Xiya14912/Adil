@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Adil's Clothing Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Adil's Clothing</h1>
+    <p>Trendy • Affordable • Quality</p>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="shirt.jpg" alt="T-Shirt">
+      <h3>Classic T-Shirt</h3>
+      <p>₹499</p>
+    </div>
+    <div class="product">
+      <img src="hoodie.jpg" alt="Hoodie">
+      <h3>Stylish Hoodie</h3>
+      <p>₹999</p>
+    </div>
+  </section>
+
+  <section class="order">
+    <h2>Place Your Order</h2>
+    <form action="https://formspree.io/f/mnqewzyk" method="POST">
+      <input type="text" name="name" placeholder="Full Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="address" placeholder="Address" required>
+      <input type="text" name="phone" placeholder="Phone Number" required>
+      <textarea name="order_details" placeholder="Order details (e.g. T-Shirt, Size M)" required></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Adil's Clothing</p>
+  </footer>
+</body>
+</html>
